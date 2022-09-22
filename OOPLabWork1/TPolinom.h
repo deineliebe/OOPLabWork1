@@ -1,12 +1,15 @@
 #pragma once
 
 #include <iostream>
-#include <cmath>
+#include <math.h>
 #include "number.h"
 
 class TPolinom
 {
-	number first, second, third;
+private:
+	number _first;
+	number _second;
+	number _third;
 public:
 	TPolinom();
 	number calculateAnswer(number);
